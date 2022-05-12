@@ -1,0 +1,44 @@
+.button {
+  text-decoration: none;
+  margin-top: 24px;
+  font-size: 28px;
+  line-height: 20px;
+  background-color: #faf5f0;
+  color: #18223c !important;
+  min-height: 60px;
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 2px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.button:after {
+  content: " ";
+  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='20' height='18' viewBox='0 0 20 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.2943 8.60001L10.3623 0.424011L8.73826 2.18801C11.2023 4.34401 13.6103 6.30401 15.5703 7.78801C13.6103 7.76001 11.1463 7.73201 8.85026 7.73201H0.114258V10.056H8.85026C11.1743 10.056 13.6103 10.028 15.5983 9.97201C13.6103 11.484 11.2023 13.388 8.73826 15.6L10.3623 17.364L19.2943 9.18801V8.60001Z' fill='%2318223C'/%3E%3C/svg%3E%0A");
+  flex: 0 0 auto;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+  margin-left: 20px;
+  position: relative;
+  top: 2px;
+  transition: transform .1s
+}
+
+.button:hover {
+  background-color: #16b3b9;
+  color: white !important;
+}
+.button:hover:after {
+  transform: translateX(5px);
+  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='20' height='18' viewBox='0 0 20 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.2943 8.60001L10.3623 0.424011L8.73826 2.18801C11.2023 4.34401 13.6103 6.30401 15.5703 7.78801C13.6103 7.76001 11.1463 7.73201 8.85026 7.73201H0.114258V10.056H8.85026C11.1743 10.056 13.6103 10.028 15.5983 9.97201C13.6103 11.484 11.2023 13.388 8.73826 15.6L10.3623 17.364L19.2943 9.18801V8.60001Z' fill='%23ffffff'/%3E%3C/svg%3E%0A");
+}

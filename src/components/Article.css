@@ -1,0 +1,27 @@
+.article-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50vw;
+  overflow: auto;
+  background-color: #faf5f0;
+}
+
+.article {
+  padding: 3vw;
+  padding-top: 0;
+}
+
+.article .image img {
+  width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.article__content p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  line-height: 28px
+}
